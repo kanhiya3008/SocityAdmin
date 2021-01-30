@@ -1,0 +1,129 @@
+name: MyDen
+description: MyDen App
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  bloc: 6.0.1
+  flutter_bloc: 6.0.1
+  connectivity: ^0.4.6+1
+  http: ^0.12.0+3
+  intl: ^0.16.0
+  bottom_navy_bar: ^5.2.2
+  font_awesome_flutter: ^8.5.0
+  bottom_personalized_dot_bar: ^1.0.2
+  google_fonts: ^0.3.5
+  firebase_auth: ^0.16.1
+  google_sign_in: ^4.4.4
+  cloud_firestore: ^0.12.9+5
+  shared_preferences: ^0.5.7+3
+  firebase_storage: ^3.0.6
+  fluttertoast: ^7.0.2
+  flutter_custom_clippers: ^1.1.2
+  curved_navigation_bar: ^0.3.4
+  image_picker: ^0.6.7+14
+  permission_handler: ^5.0.1+1
+  datetime_picker_formfield: ^1.0.0
+  uuid: 2.2.2
+  cached_network_image: ^2.2.0+1
+  rxdart: ^0.24.1
+ # flutter_facebook_login: ^3.0.0
+  regexpattern: ^1.0.0
+  social_share: ^2.0.5
+  screenshot: ^0.2.0
+  flutter_share_me: ^0.9.1
+  flutter_lock_screen: '^1.0.8'
+  local_auth: ^0.6.3+3
+  flutter_screen_lock: ^1.2.4
+  imei_plugin: ^1.2.0
+  firebase_messaging: ^6.0.9
+  flutter_local_notifications: ^3.0.2
+  device_info: ^1.0.0
+  dio: ^3.0.10
+ # awesome_notifications: ^0.0.5+4
+  url_launcher: ^5.7.5
+  flutter_statusbarcolor: ^0.2.3
+  numberpicker: ^1.2.1
+  progressive_image: ^1.0.1
+  giffy_dialog: ^1.8.0
+  palette_generator: ^0.2.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.4
+
+flutter_icons:
+  image_path: "images/fingerprint1.png"
+  android: true
+  ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - images/fingerprint.png
+    - images/fingerprint1.png
+    - images/cancel.png
+    - images/done.png
+    - images/coming.png
+    - images/gateClose.png
+    - images/gateOpen.png
+    - assets/images/awesome-notifications-logo-color.png
+    - assets/images/awesome-notifications-logo-black.png
+    - assets/images/awesome-notifications-logo-white.png
+    - assets/images/animated-bell.gif
+    - assets/images/placeholder.gif
+    - assets/images/happy-dogs.jpg
+    - assets/images/balloons-in-sky.jpg
+    - assets/images/fireman-hero.jpg
+    - assets/images/delivery.jpeg
+    - assets/images/melted-clock.png
+    - assets/images/rock-disc.jpg
+    - assets/images/classic-disc.jpg
+    - assets/images/dj-disc.jpg
+    - assets/images/80s-disc.jpg
+    - assets/images/remix-disc.jpg
+    - assets/images/old-disc.jpg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-RegularItalic.ttf
+        - asset: fonts/Poppins-Light.ttf
+        - asset: fonts/Poppins-LightItalic.ttf
+        - asset: fonts/Poppins-Thin.ttf
+        - asset: fonts/Poppins-ThinItalic.ttf

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020988429029",
+    "firebase_url": "https://myden-60f0a.firebaseio.com",
+    "project_id": "myden-60f0a",
+    "storage_bucket": "myden-60f0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020988429029:android:4accb299fc4df53b61ba0c",
+        "android_client_info": {
+          "package_name": "com.myden.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020988429029-gvo3r0dbnti9b6ckui6k92sb3rci0bqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myden.admin",
+            "certificate_hash": "2fa1e3725da7e56989c3b63ad08c171a3fd2ad36"
+          }
+        },
+        {
+          "client_id": "1020988429029-ngap99orj8sv0nuhjp95omhi3ahd2s29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxjI8Z6RI5P2WDDbqELas3e9mX0P-Bm4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020988429029-ngap99orj8sv0nuhjp95omhi3ahd2s29.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1020988429029-uqct117ntcsrqes0eov1goob64g4j77r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myDen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
